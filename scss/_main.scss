@@ -97,7 +97,7 @@ body {
     background-color: $amarillo;   
     .card-body{       
         border:0cm;
-    } 
+    }
 }  
  
 #novedades{
@@ -172,7 +172,34 @@ body {
     }    
     .social a:hover{
         color: $gris-claro;
-    }   
+    }  
+ 
+    .tel i {
+        color: $gris-oscuro;
+        font-size: 20px;
+    }
+    .asistencia{
+        font-family: $teko;
+        font-weight: $teko-medium;
+        color: $amarillo;
+        font-size: 20px;
+        line-height: 1.1;
+    }
+    .asistenciaTel{
+        font-family: $teko;
+        font-weight: $teko-medium;
+        color: $amarillo;
+        font-size: 30px;
+        line-height: 1;
+    }
+    .fa-phone{
+        background-color: $amarillo;
+        width: 30px;
+        height: 30px;
+        border-radius: $border-lg;
+        padding: 5px;     
+    }
+    
 }
 #copy{
     background-color:$amarillo;

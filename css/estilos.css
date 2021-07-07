@@ -139,6 +139,27 @@ body {
     transition: 0.8s; }
   #footer .social a:hover {
     color: #2B2D31; }
+  #footer .tel i {
+    color: #1C1E23;
+    font-size: 20px; }
+  #footer .asistencia {
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+    color: #F9B200;
+    font-size: 20px;
+    line-height: 1.1; }
+  #footer .asistenciaTel {
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+    color: #F9B200;
+    font-size: 30px;
+    line-height: 1; }
+  #footer .fa-phone {
+    background-color: #F9B200;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px; }
 
 #copy {
   background-color: #F9B200; }
