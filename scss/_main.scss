@@ -66,10 +66,7 @@ body {
 
 #servicios{     
     background-color:$gris-oscuro;
-    background-image: url(../media/patternServicios.png);
-    img{
-        width: 96px;
-    }
+    background-image: url(../media/patternServicios.png);    
     .boton{
     background-color: $gris-oscuro;
     width: 100%;
@@ -85,12 +82,24 @@ body {
         font-size: 26px;
         line-height: 80%;
     }
+   
     .boton:hover{
         background-color: $amarillo;
+        p {
+            color:$gris-oscuro
+        }
     }
-    .text-btn:hover{
-        color: $gris-oscuro;
-    }
+    svg {
+        width: 70px;
+        height: 70px;
+      }
+      svg:hover {
+        fill: red;
+      }
+   
+
+
+    
 }
 
 #emergencias{

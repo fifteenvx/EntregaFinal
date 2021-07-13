@@ -75,10 +75,6 @@ body p {
   background-image: url(../media/patternServicios.png);
 }
 
-#servicios img {
-  width: 96px;
-}
-
 #servicios .boton {
   background-color: #1C1E23;
   width: 100%;
@@ -106,8 +102,17 @@ body p {
   background-color: #F9B200;
 }
 
-#servicios .text-btn:hover {
+#servicios .boton:hover p {
   color: #1C1E23;
+}
+
+#servicios svg {
+  width: 70px;
+  height: 70px;
+}
+
+#servicios svg:hover {
+  fill: red;
 }
 
 #emergencias {
